@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm *)",
+      "Bash(echo:*)",
+      "Bash(lsof:*)",
+      "Bash(kill:*)",
+      "Bash(timeout 10 npm run dev:*)",
+      "Bash(npx *)",
+      "Bash(chmod:*)",
+      "Bash(bash:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git checkout:*)",
+      "Bash(git pull:*)",
+      "Bash(git merge:*)",
+      "Bash(git push:*)",
+      "Bash(git diff *)",
+      "Bash(ls:*)",
+      "Bash(grep -r *)",
+      "Read(//tmp/**)",
+      "Bash(python3 -c ' *)",
+      "Bash(node -e ' *)",
+      "Bash(git -C *)",
+      "Bash(gh pr *)",
+      "Bash(git mv *)"
+    ],
+    "deny": [],
+    "ask": [],
+    "additionalDirectories": []
+  }
+}
